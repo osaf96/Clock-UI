@@ -6,9 +6,9 @@ const  minutes = document.getElementById('clock-minutes')
 const clock = () =>{
     let date = new Date()
 
-    let hh = date.getHours() * 30,
-        mm = date.getMinutes() * 6,
-        ss = date.getSeconds() * 6
+    let hh = date.getHours() * 30
+    let mm = date.getMinutes() * 6
+    let ss = date.getSeconds() * 6
         
     // We add a rotation to the elements
     hour.style.transform = `rotateZ(${hh + mm / 12}deg)`
