@@ -54,7 +54,6 @@ a{
     text-decoration: none;
 }
 .container{
-    /* max-width: 968px; */
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
 }
@@ -174,7 +173,7 @@ a{
     width: max-content;
     justify-self: center;
     margin-bottom: var(--mb-2-5);
-    font-size: var(--smaler-font-size);
+    font-size: 1rem;
     font-weight: var(--font-medium);
    color: var(--text-color);
 }
