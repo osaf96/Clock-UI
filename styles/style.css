@@ -45,8 +45,8 @@
 }
 body{
     font-family: var(---body-font);
-    
-    background-color: #08213f;
+    background-color: var(--body-color); 
+    /* background-color: #08213f; */
     color: var(--text-color);
     margin: 0;
 }
