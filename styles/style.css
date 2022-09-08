@@ -177,5 +177,9 @@ a{
     font-weight: var(--font-medium);
    color: var(--text-color);
    cursor: pointer;
+   opacity: 1;
+}
+.clock-logo:hover{
+    opacity: 0.7;
 }
 
