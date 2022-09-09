@@ -34,8 +34,8 @@ let day = date.getDay() + 4
 let  month= date.getMonth() + 1
 let year= date.getFullYear()
 
-dateday.innerHTML = day + "/"
-datemonth.innerHTML= month + "/"
+dateday.innerHTML = day + "-"
+datemonth.innerHTML= month + "-"
 dateyear.innerHTML = year
 } 
 setInterval(current_date, 1000)
