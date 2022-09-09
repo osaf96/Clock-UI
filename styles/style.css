@@ -179,9 +179,9 @@ a{
    cursor: pointer;
    opacity: 1;
 }
-/* .clock-logo:hover{
+.clock-logo:hover{
     opacity: 0.7;
-} */
+}
 .date-card{
     align-items: center;
     justify-self: center;
