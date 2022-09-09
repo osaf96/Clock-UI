@@ -182,4 +182,10 @@ a{
 .clock-logo:hover{
     opacity: 0.7;
 }
-
+.date-card{
+    align-items: center;
+    justify-self: center;
+}
+.date-card-info{
+    align-items: center;
+}
