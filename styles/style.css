@@ -192,4 +192,5 @@ a{
 .heading{
     text-align: center;
     padding: 1rem;
+    cursor: pointer;
 }
