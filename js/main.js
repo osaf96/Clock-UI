@@ -23,7 +23,7 @@ const clock = () =>{
 setInterval(clock, 1000) // 1000 = 1s
 
  
-// for date 
+//  Date Card 
 
 
 const current_date = ()=>{
