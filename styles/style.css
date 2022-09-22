@@ -178,9 +178,11 @@ a{
    color: var(--text-color);
    cursor: pointer;
    opacity: 1;
+   transition: font-size 0.6s;
 }
 .clock-logo:hover{
     opacity: 0.7;
+    font-size: 1.3rem;
 }
 .date-card{
     align-items: center;
