@@ -28,11 +28,10 @@ setInterval(clock, 1000) // 1000 = 1s
 
 const current_date = ()=>{
     let date = new Date()
-
  
-let day = date.getDay() + 4
-let  month= date.getMonth() + 1
-let year= date.getFullYear()
+    let day = date.getDay() + 4
+    let  month= date.getMonth() + 1
+    let year= date.getFullYear()
 
 dateday.innerHTML = day + "/"
 datemonth.innerHTML= month + "/"
