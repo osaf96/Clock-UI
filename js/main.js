@@ -25,8 +25,8 @@ setInterval(clock, 1000) // 1000 = 1s
  
 //  Date Card 
 
-
 const current_date = ()=>{
+
     let date = new Date()
  
     let day = date.getDay() + 4
