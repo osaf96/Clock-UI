@@ -20,9 +20,9 @@ const clock = () =>{
     minutes.style.transform = `rotateZ(${mm}deg)`
     seconds.style.transform = `rotateZ(${ss}deg)`
 }
-setInterval(clock, 1000) // 1000 = 1s
+setInterval(clock, 1000)
+ // *hint => 1000 = 1s
 
- 
 //  Date Card 
 
 const current_date = ()=>{
